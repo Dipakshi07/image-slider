@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Slider</title>
+  <link rel="stylesheet" href="slider.css">
+</head>
+<body>
+  <div  class="para">
+        <h1>Animals</h1>
+        <p>Animals are multicellular, eukaryotic organisms in the biological kingdom Animalia. With few exceptions, animals consume organic material, breathe oxygen, have myocytes and are able to move, can reproduce sexually, and grow from a hollow sphere of cells, the blastula, during embryonic development. <br>Over 1.5 million living animal species have been described, of which around 1.05 million are insects, over 85,000 are molluscs, and around 65,000 are vertebrates.</p>
+  </div>
+  <div class="slider-container">
+    <div class="slider">
+      <div class="slides">
+           <!-- Slide images -->
+         <div class="slide">
+             <img src="img1.jpg" alt="Image 1">
+         </div>
+         <div class="slide">
+            <img src="img2.jpg" alt="Image 2">
+         </div>
+         <div class="slide">
+            <img src="img3.jpg" alt="Image 3">
+         </div>
+         <div class="slide">
+            <img src="img4.jpg" alt="Image 4">
+         </div>
+         <div class="slide">
+            <img src="img5.jpg" alt="Image 5">
+         </div>
+         <div class="slide">
+            <img src="img6.jpg" alt="Image 6">
+         </div>
+     </div>
+
+      <!-- navigation buttons -->
+      <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+      <button class="next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+  </div>
+
+  <script src="slider.js"></script>
+</body>
+</html>
